@@ -285,3 +285,33 @@ foreignObject{
 .booking__text+.booking__text{
     margin-left: 52px;
 }
+.special__offer{
+    background-image: url(../images/specialbg.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    min-height: 100vh;
+    padding-bottom: 100px;
+}
+.special__inner{
+    display: flex;
+    justify-content: space-between;
+}
+.speecial__item{
+
+}
+.special__box{
+    border: 1px solid #fff;
+    width: 500px;
+    height: 400px;
+
+}
+.special__text{
+    text-align: center;
+    padding: 43px 132px 241px;
+    font-size: 24px;
+    line-height: 29px;
+}
+.special__text{
+    
+}
