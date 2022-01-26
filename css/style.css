@@ -285,33 +285,95 @@ foreignObject{
 .booking__text+.booking__text{
     margin-left: 52px;
 }
-.special__offer{
+.info{
     background-image: url(../images/specialbg.jpg);
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
-    min-height: 100vh;
     padding-bottom: 100px;
+}
+.special__offer{
+    padding-bottom: 150px;
 }
 .special__inner{
     display: flex;
     justify-content: space-between;
 }
-.speecial__item{
-
+.special__item{
+   width: 500px;
 }
 .special__box{
     border: 1px solid #fff;
-    width: 500px;
-    height: 400px;
-
+    margin-bottom: 25px;
+    padding: 40px 75px;
+    text-align: center;
+    min-height: 400px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
 }
 .special__text{
-    text-align: center;
-    padding: 43px 132px 241px;
+    font-size: 24px;
+    line-height: 29px;
+    width: 236px;
+    margin: 0 auto;
+}
+.special__text span{
+    color: #CB0E0E;
+    
+}
+.special__price-old{
+    text-align: right;
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 16px;
+    position: relative;
+}
+.special__price-old::before{
+    content: '';
+    position: absolute;
+    width: 68px;
+    height: 1px;
+    background-color: #CB0E0E;
+    top: 7px;
+    right: 0;
+    transform: rotate(15deg);
+}
+.special__price-new{
+    font-size: 48px;
+    line-height: 57px;
+}
+.special__btn{
+    width: 100%;
+}
+.services{
+    padding-bottom: 200px;
+}
+.services__inner{
+    display: flex;
+    justify-content: space-between;
+}
+.services__box-list{
+    width: 620px;
+    margin-right: 80px;
     font-size: 24px;
     line-height: 29px;
 }
-.special__text{
-    
+.services__list-title{
+    margin-bottom: 25px;
+}
+.services__btns{
+    margin-right: auto;
+}
+.services__list{
+    margin-bottom: 25px;
+    list-style: none;
+}
+.services__item{
+    padding-left: 36px;
+    position: relative;
+}
+.services__desriptions{
+    font-size: 12px;
+    line-height: 14px;
 }
