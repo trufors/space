@@ -432,3 +432,101 @@ foreignObject{
 .slider__arrowright{
     right: 75px;
 }
+.conacts{
+    background-image: url(../images/contactsbg.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    padding-bottom: 100px;
+}
+.conacts__inner{
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    line-height: 29px;
+}
+.conacts__box{
+    width: 500px;
+}
+.conacts__text{
+    margin-bottom: 80px;
+}
+.conacts__guarantees{
+    width:600px;
+    margin-left: auto;
+}
+.conacts__form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 500px;
+    margin: 0 auto;
+}
+.conacts__input{
+    width: 100%;
+    font-family: 'SF-Pro-Display';
+    border: none;
+    border-bottom: 1px solid #d9d9de;
+    padding: 20px 0;
+    margin-bottom: 30px;
+    font-size: 14px;
+    line-height: 17px;
+    color:#fff;
+    background-color: #010203;
+}
+.conacts__input::placeholder{
+    font-family: 'SF-Pro-Display';
+    font-size: 14px;
+    line-height: 17px;
+    color:#fff;
+}
+.conacts__guarantees-img{
+    display: flex;
+    margin-left: auto;
+}
+.conacts__btn{
+    width: 100%;
+}
+.footer{
+    background-image: url(../images/footerbg.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    padding: 100px 0 150px;
+}
+.footer__inner{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 16px;
+    line-height: 19px;
+}
+.footer__text{
+    width: 165px;
+    margin-right: 50px;
+}
+.footer__text p + p{
+    margin-top: 50px;
+}
+.footer__menu{
+    list-style: none;
+    width: 120px;
+    margin-right: 95px;
+}
+.footer__links{
+    list-style: none;
+    width: 165px;
+}
+.footer__menu-list,
+.footer__links-list{
+    margin-bottom: 20px;
+}
+.footer__links-link,
+.footer__menu-link{
+    text-transform: uppercase;
+    transition: color .5s;
+}
+.footer__links-link:hover,
+.footer__menu-link:hover{
+    color: #CB0E0E;
+}
